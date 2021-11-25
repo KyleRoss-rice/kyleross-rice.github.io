@@ -1,0 +1,46 @@
+#nav {
+  text-align: center;
+}
+#nav>ul>li {
+  display: inline-block;
+  background-color: rgb(3, 126, 118);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#nav>ul>li>ul {
+  list-style: none;
+  padding: 0px;
+}
+#nav>ul>li>ul>li:hover {
+  background-color:darkorchid;
+}
+
+
+.contenu {
+  background-color: lightgray;
+  list-style-type:lower-roman;
+}
+
+#nav>ul>li:hover {
+  background-color:rgb(5, 40, 116);
+}
+
+
+.btn ul {
+  display: none;
+  position:absolute;
+  background-color:rgb(5, 40, 116);
+  border-radius: 5px;
+}
+
+.btn ul>li{
+  padding: 30px;
+}
+
+.btn:hover ul {
+  display: block;
+}
+
+ 
