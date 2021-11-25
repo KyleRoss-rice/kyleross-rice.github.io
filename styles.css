@@ -1,7 +1,7 @@
 #nav {
   text-align: center;
 }
-#nav>ul>li {
+.btn {
   display: inline-block;
   background-color: rgb(3, 126, 118);
   color: white;
@@ -9,11 +9,11 @@
   text-align: center;
 }
 
-#nav>ul>li>ul {
+.btn>ul {
   list-style: none;
   padding: 0px;
 }
-#nav>ul>li>ul>li:hover {
+.btn>ul>li:hover {
   background-color:darkorchid;
 }
 
@@ -23,7 +23,7 @@
   list-style-type:lower-roman;
 }
 
-#nav>ul>li:hover {
+.btn:hover {
   background-color:rgb(5, 40, 116);
 }
 
